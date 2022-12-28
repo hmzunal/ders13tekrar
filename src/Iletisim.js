@@ -47,6 +47,10 @@ function Iletisim()
             <p>Site:</p>
             <input name="site" type="text" onChange={topluGuncelle}></input> {formalanlari.site?.length}
             </div>
+            <div>
+            <p>Mesajınız:</p>
+            <textarea name="mesaj"  onChange={topluGuncelle}></textarea> {formalanlari.mesaj?.length}
+            </div>
 
         <button type="submit">Gönder</button>
         </form>
